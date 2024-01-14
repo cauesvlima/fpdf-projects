@@ -8,7 +8,7 @@ $pdf->AddPage('F', 'A4');
 $pdf->Image('bg1.jpg',0 ,0 , 297, 210);
 $pdf->SetFont('Times', 'B', 60);
 $pdf->Cell(298, 30, '', 0, 1, 'C');
-$pdf->Cell(298, 15, 'Certificado', 0, 1, 'C');
+$pdf->Cell(298, 15, 'Certificado', 0, 1, 'C ');
 $pdf->SetFont('Times', '', 30);
 $pdf->Cell(298, 15, 'De conclusao de Curso', 0, 1, 'C');
 $pdf->Cell(298, 20, '', 0, 1, 'C');
